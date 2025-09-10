@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain
+langchain-mistralai
+langchain-tavily
+langgraph-checkpoint-sqlite
+python-dotenv

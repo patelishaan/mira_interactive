@@ -4,4 +4,3 @@ langgraph
 langchain-core
 langchain-mistralai
 python-dotenv
-sqlite3

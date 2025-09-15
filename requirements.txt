@@ -5,3 +5,4 @@ langchain-core==0.3.76
 langchain-mistralai==0.2.11
 python-dotenv
 gunicorn
+langgraph-checkpoint-sqlite

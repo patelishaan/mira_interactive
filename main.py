@@ -6,12 +6,14 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain.chat_models import init_chat_model
 from langgraph.prebuilt import create_react_agent
 from langgraph.checkpoint.sqlite import SqliteSaver
+from flask_cors import CORS
 
 # Load environment variables from .env file
 load_dotenv()
 
 # --- 1. Initialize Flask App ---
 app = Flask(__name__)
+CORS(app)
 
 # --- 2. Load API Key and Initialize Model ---
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")

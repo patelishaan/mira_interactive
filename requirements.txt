@@ -6,3 +6,4 @@ langchain-mistralai==0.2.11
 python-dotenv
 gunicorn
 langgraph-checkpoint-sqlite
+flask-cors

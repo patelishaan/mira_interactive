@@ -1,8 +1,7 @@
-fastapi
-uvicorn[standard]
-langgraph
+flask
 langchain
+langgraph
+langchain-core
 langchain-mistralai
-langchain-tavily
-langgraph-checkpoint-sqlite
 python-dotenv
+sqlite3
